@@ -9,24 +9,24 @@ function Camo() {
              name: 'Official Midnight Camo Glass Case',
              price: 399,
              rating: 5,
-             image: 'https:coveritup.com/cdn/shop/products/Layer12_b419c9e5-5379-493c-9f55-770962255a51.jpg?v=1681117064&width=800',
-             hoverImage: 'https:coveritup.com/cdn/shop/products/Layer56_7273e73e-23aa-4325-9943-e78e6b389c10.jpg?v=1681117065&width=800'
+             image: 'https://coveritup.com/cdn/shop/products/Layer12_b419c9e5-5379-493c-9f55-770962255a51.jpg?v=1681117064&width=800',
+             hoverImage: 'https://coveritup.com/cdn/shop/products/Layer56_7273e73e-23aa-4325-9943-e78e6b389c10.jpg?v=1681117065&width=800'
            },
            {
              id: 2,
              name: 'Jungle Camo Glass Case',
              price: 399,
              rating: 4,
-             image: 'https:coveritup.com/cdn/shop/products/Layer72.jpg?v=1680522800&width=800',
-             hoverImage: 'https:coveritup.com/cdn/shop/products/Layer72_8e56afa2-3a04-426d-a6ce-d6e62299c4de.jpg?v=1680522801&width=800'
+             image: 'https://coveritup.com/cdn/shop/products/Layer72.jpg?v=1680522800&width=800',
+             hoverImage: 'https://coveritup.com/cdn/shop/products/Layer72_8e56afa2-3a04-426d-a6ce-d6e62299c4de.jpg?v=1680522801&width=800'
            },
            {
              id: 3,
              name: 'Walnut Camo Glass Case',
              price: 499,
              rating: 4,
-             image: 'https:coveritup.com/cdn/shop/products/walnut-camo-apple-iphone-13-mini-glass-case-1646448721_d77c32a1-e589-48a8-9884-7053acf2771b.jpg?v=1681380236&width=800',
-             hoverImage: 'https:coveritup.com/cdn/shop/products/Layer68_21ab2555-d5b7-4dab-8191-5dae1ade3e0a.jpg?v=1681380236&width=800'
+             image: 'https://coveritup.com/cdn/shop/products/walnut-camo-apple-iphone-13-mini-glass-case-1646448721_d77c32a1-e589-48a8-9884-7053acf2771b.jpg?v=1681380236&width=800',
+             hoverImage: 'https://coveritup.com/cdn/shop/products/Layer68_21ab2555-d5b7-4dab-8191-5dae1ade3e0a.jpg?v=1681380236&width=800'
            },
 
            {
@@ -34,48 +34,48 @@ function Camo() {
              name: 'Sandstone Camo Glass Case',
              price: 499,
              rating: 3,
-             image: 'https:coveritup.com/cdn/shop/products/Layer51_f0d07d9c-fa0a-41c8-bb53-fbc2c08b9dcb.jpg?v=1681385437&width=800',
-             hoverImage: 'https:coveritup.com/cdn/shop/products/Layer40_8745f978-8824-45f3-9858-b5fba24dcf85.jpg?v=1681385437&width=800'
+             image: 'https://coveritup.com/cdn/shop/products/Layer51_f0d07d9c-fa0a-41c8-bb53-fbc2c08b9dcb.jpg?v=1681385437&width=800',
+             hoverImage: 'https://coveritup.com/cdn/shop/products/Layer40_8745f978-8824-45f3-9858-b5fba24dcf85.jpg?v=1681385437&width=800'
            },
            {
              id: 5,
              name: 'Apple Camo Glass Case',
              price: 599,
              rating: 4,
-             image: 'https:coveritup.com/cdn/shop/products/Layer37_faccfab8-4abe-494f-b41d-bce7a78b8767.jpg?v=1680939474&width=800',
-             hoverImage: 'https:coveritup.com/cdn/shop/products/Layer56_c22d594b-4171-469e-982a-4cf043419b41.jpg?v=1680939474&width=800'
+             image: 'https://coveritup.com/cdn/shop/products/Layer37_faccfab8-4abe-494f-b41d-bce7a78b8767.jpg?v=1680939474&width=800',
+             hoverImage: 'https://coveritup.com/cdn/shop/products/Layer56_c22d594b-4171-469e-982a-4cf043419b41.jpg?v=1680939474&width=800'
            },
            {
              id: 6,
              name: 'Berry Camo Glass Case',
              price: 599,
              rating: 5,
-             image: 'https:coveritup.com/cdn/shop/products/Layer42_edf735ae-7da2-4c37-b257-1612db11fa36.jpg?v=1680939940&width=800',
-             hoverImage: 'https:coveritup.com/cdn/shop/products/Layer38_aa45d79c-ae8c-4efe-9ebc-03e2e46a43a8.jpg?v=1680939940&width=800'
+             image: 'https://coveritup.com/cdn/shop/products/Layer42_edf735ae-7da2-4c37-b257-1612db11fa36.jpg?v=1680939940&width=800',
+             hoverImage: 'https://coveritup.com/cdn/shop/products/Layer38_aa45d79c-ae8c-4efe-9ebc-03e2e46a43a8.jpg?v=1680939940&width=800'
            },
            {
              id: 7,
              name: 'Blueberry Camo Glass Case',
              price: 499,
              rating: 3,
-             image: 'https://coveritup.com/cdn/shop/products/Layer12_b419c9e5-5379-493c-9f55-770962255a51.jpg?v=1681117064&width=800',
-             hoverImage: 'https:coveritup.com/cdn/shop/products/Layer76_520d5247-0a4f-412f-93ec-c99522d19d50.jpg?v=1681209812&width=800'
+             image: 'https://coveritup.com/cdn/shop/products/Layer78_83be2d54-b639-4c40-aea6-169eb935b284.jpg?v=1681209812&width=800',
+             hoverImage: 'https://coveritup.com/cdn/shop/products/Layer76_520d5247-0a4f-412f-93ec-c99522d19d50.jpg?v=1681209812&width=800'
            },
            {
              id: 8,
              name: 'Bubblegum Camo Glass Case',
              price: 399,
              rating: 4,
-             image: 'https:coveritup.com/cdn/shop/products/Layer105_6c50346a-d046-4423-93e4-94a9278c7de5.jpg?v=1681213640&width=800',
-             hoverImage: 'https:coveritup.com/cdn/shop/products/Layer133_12962a68-de2e-4ca4-b3bc-a54711dca587.jpg?v=1681213640&width=800'
+             image: 'https://coveritup.com/cdn/shop/products/Layer105_6c50346a-d046-4423-93e4-94a9278c7de5.jpg?v=1681213640&width=800',
+             hoverImage: 'https://coveritup.com/cdn/shop/products/Layer133_12962a68-de2e-4ca4-b3bc-a54711dca587.jpg?v=1681213640&width=800'
            },
            {
              id: 9,
              name: 'Urban Camo Glass Case',
              price: 599,
              rating: 5,
-             image: 'https:coveritup.com/cdn/shop/products/Layer67_fe8bbf13-b642-4a1f-bd80-7f01eac25d85.jpg?v=1681379775&width=800',
-             hoverImage: 'https:coveritup.com/cdn/shop/products/Layer67_b74c5f15-3816-42ac-b60f-7b0da921474d.jpg?v=1681379775&width=800'
+             image: 'https://coveritup.com/cdn/shop/products/Layer67_fe8bbf13-b642-4a1f-bd80-7f01eac25d85.jpg?v=1681379775&width=800',
+             hoverImage: 'https://coveritup.com/cdn/shop/products/Layer67_b74c5f15-3816-42ac-b60f-7b0da921474d.jpg?v=1681379775&width=800'
            }
       
 
