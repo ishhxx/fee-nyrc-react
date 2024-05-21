@@ -1,0 +1,534 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    /* color: black; */
+}
+.start{
+    background-color: black;
+}
+.navbar{
+    box-shadow: 0px 2px rgb(233, 228, 228);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+}
+.navbar ul{
+    overflow: auto;
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 2px 15px;
+    font-size: xx-large;
+} 
+.navbar li a{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    padding: 3px 3px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.hover ul li a{
+    padding: 3px 3px;
+    font-size: 22px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    margin-right: 70px;
+}
+.hover:hover{
+    padding: 3px 3px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(63, 89, 169);
+    transform: scale(1.1);
+}
+
+.left-down{
+    margin-bottom: 200px;
+    margin: 40px;
+}
+.sign h1{
+    margin: 48px;
+    font-size: 25px;
+    font-variant: small-caps;
+    margin-left: 22px;
+    
+}
+.sign h2{
+    margin: 20px;
+    font-size: 25px;
+    margin-top: -39px;
+    text-align: left;
+    font-variant: small-caps;
+}
+.last1{
+    padding-left: 320px;
+    margin-top: 50px;
+    
+}
+.last1 h3{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -215px;
+    font-size: 20px;
+}
+.last1 ul li{
+    list-style: none;
+}
+.last1 ul li a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 650;
+}
+.last2 h3{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -103px;
+    font-size: 20px;
+    margin-left: 520px;
+}
+.last2 ul li{
+    list-style: none;
+    text-align: left;
+    margin-left: 520px;
+}
+.last2 ul li a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 650;
+}
+.last3 h3{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -205px;
+    font-size: 20px;
+    margin-right:255px;
+    text-align: right;
+}
+.last3 ul li{
+    list-style: none;
+    text-align: left;
+    margin-left:850px;
+
+}
+.last3 ul li a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 650;
+}
+.last4 h3{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -125px;
+    font-size: 20px;
+    margin-right:43px;
+    text-align: right;
+}
+.last4 h1{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-right:104px;
+    text-align: right;
+}
+.last4 ul li{
+    list-style: none;
+    text-align: left;
+    margin-left:1020px;
+}
+.last4 ul li a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 650;
+}
+.email-container{
+    display: block;
+    align-items: flex-start;
+    margin: 19px;
+    margin-top: 130px;
+}
+input[type="email"]{
+    padding: 10px;
+    font-size: 16px;
+    border: 0px solid black;
+    border-radius: 4px;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+.email-button {
+    background-color:white;
+    color: black;
+    border: 0px;
+    padding: 13px;
+    border-radius: 4px;
+    margin-left:-11px;
+    cursor: pointer;
+}
+.who{
+    text-align: left;
+    margin: 20px;
+    margin-top: 70px;
+}
+.who::before{
+    content: "";
+    display: flex;
+    border-top: 1px solid white;
+}
+.who h1{
+    margin-left: 25px;
+}
+.who::after {
+    content: "";
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-top: 8px;
+    
+}
+#showContentBtn{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    margin-bottom: -1900px;
+    margin-right: 25px;
+}
+.content {
+    text-align: left;
+    margin: 60px;
+    margin-top: -8px;
+}
+.line::before{
+    content: "";
+    display: flex;
+    border-top: 1px solid white;
+}
+
+
+#showContentBtn:hover {
+    background-color: white; /* Change button background color on hover */
+    /* Add any other hover styles as needed */
+}
+
+.bottom{
+    display: flex;
+    /* margin-top: 30px; */
+    justify-content: space-between;
+    margin: 25px;
+    background-color: black;
+    size: 2px;
+}
+.bottom1{
+    display: flex;
+    /* margin-top: 30px; */
+    margin-top: -70px;
+    justify-content: space-between;
+    margin: 25px;
+    background-color: black;
+    size: 2px;
+}
+.bottom1 p{
+    margin-right: 730px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+   margin-top: -40px;
+   padding-bottom: 30px;
+}
+.container{
+    background: linear-gradient(135deg, violet,aqua);
+    padding: 20px;
+    padding-block: end;
+    color: black;
+}
+
+.heading{
+    font-family: "Lora", serif;
+    font-weight: bolder;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 70px;
+}
+.text p1{
+   margin-left: 200px;
+   font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.text p2{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.text p3{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.text1{
+    margin-top: 20px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.text1 p4{
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.te2{
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+.te3{
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.te4{
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.te5{
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.i3{
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.i4{
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.text1 p5{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.text1 p6{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.collect{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+.pa1{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -3px;
+}
+.i2{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.orders{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+.cancel{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+.use2{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.pa2{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.pa3{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.pa4{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.pa5{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.info{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+.te1{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.re1{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    
+}
+.f1{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.f2{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -50px;
+}
+.f2 p2{
+    margin-left: 20px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.f3{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.f4{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.se{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+.i1{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.use{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+.use1{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.li1{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.part1{
+    margin-left: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.terms h2{
+    margin-right: 765px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+

@@ -1,0 +1,365 @@
+.about-body{
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-color: white;
+
+.start{
+    background-color: black;
+}
+.navbar{
+    box-shadow: 0px 2px rgb(233, 228, 228);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+}
+.navbar ul{
+    overflow: auto;
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 2px 15px;
+    font-size: xx-large;
+} 
+.navbar li a{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    padding: 3px 3px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.hover ul li a{
+    padding: 3px 3px;
+    font-size: 22px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    margin-right: 70px;
+}
+.hover:hover{
+    padding: 3px 3px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(63, 89, 169);
+    transform: scale(1.1);
+}
+.DNA h1{
+    font-family: "Lora", serif;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    padding: 30px;
+    font-size: 50px;
+}
+.container34{
+    background-color: white;
+    margin-top: 10px;   
+}
+.DNA p1{
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 340px;
+    color: black;
+    font-size: 20px;
+}
+.DNA p2{
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 390px;
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+}
+.DNA p3{
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 370px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.DNA p4{
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 580px;
+    text-align: center;
+    color: black;
+    font-size: 20px;   
+}
+.dna{
+    margin-top: -90px;
+    margin-left:10px ;
+}
+
+.gradient{
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+}
+.sliding-word {
+    margin-top: 70px;
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: inline-block; /* Make the div inline to prevent line breaks */
+    animation: slidein 5s linear infinite; /* Animation properties */
+    width: 18%;
+    font-size: 40px;
+    font-style: unset;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+}
+
+@keyframes slidein {
+    0% { transform: translateX(100%); } /* Initial position */
+    100% { transform: translateX(-100%); } /* Final position */
+}
+.spacer {
+    display: inline-block;
+    width: 20px; /* Adjust the width of the space */
+}
+.haha12{
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 40vh;
+}
+.paris{
+
+    background: linear-gradient(135deg, aqua, blueviolet);
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    display: grid; 
+    padding-top: 50px;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.paris h1{
+    text-align: center;
+    margin-left: 10px;
+}
+.paris h1{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+.left-down{
+    margin-bottom: 200px;
+    margin: 40px;
+}
+.sign h1{
+    margin: 48px;
+    font-size: 25px;
+    font-variant: small-caps;
+    margin-left: 22px;
+    
+}
+.sign h2{
+    margin: 20px;
+    font-size: 25px;
+    margin-top: -39px;
+    text-align: left;
+    font-variant: small-caps;
+}
+.last1{
+    padding-left: 320px;
+    margin-top: 50px;
+    
+}
+.last1 h3{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -215px;
+    font-size: 20px;
+}
+.last1 ul li{
+    list-style: none;
+}
+.last1 ul li a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 650;
+}
+.last2 h3{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -103px;
+    font-size: 20px;
+    margin-left: 520px;
+}
+.last2 ul li{
+    list-style: none;
+    text-align: left;
+    margin-left: 520px;
+}
+.last2 ul li a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 650;
+}
+.last3 h3{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -205px;
+    font-size: 20px;
+    margin-right:255px;
+    text-align: right;
+}
+.last3 ul li{
+    list-style: none;
+    text-align: left;
+    margin-left:850px;
+
+}
+.last3 ul li a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 650;
+}
+.last4 h3{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -125px;
+    font-size: 20px;
+    margin-right:43px;
+    text-align: right;
+}
+.last4 h1{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-right:104px;
+    text-align: right;
+}
+.last4 ul li{
+    list-style: none;
+    text-align: left;
+    margin-left:1020px;
+}
+.last4 ul li a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 650;
+}
+.email-container{
+    display: block;
+    align-items: flex-start;
+    margin: 19px;
+    margin-top: 130px;
+}
+input[type="email"]{
+    padding: 10px;
+    font-size: 16px;
+    border: 0px solid black;
+    border-radius: 4px;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+.email-button {
+    background-color:white;
+    color: black;
+    border: 0px;
+    padding: 13px;
+    border-radius: 4px;
+    margin-left:-11px;
+    cursor: pointer;
+}
+.who{
+    text-align: left;
+    margin: 20px;
+    margin-top: 70px;
+}
+.who::before{
+    content: "";
+    display: flex;
+    border-top: 1px solid white;
+}
+.who h1{
+    margin-left: 25px;
+}
+.who::after {
+    content: "";
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-top: 8px;
+    
+}
+#showContentBtn{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    margin-bottom: -1380px;
+    margin-right: 25px;
+}
+.content {
+    text-align: left;
+    margin: 60px;
+    margin-top: -8px;
+}
+.line::before{
+    content: "";
+    display: flex;
+    border-top: 1px solid white;
+}
+
+
+#showContentBtn:hover {
+    background-color: white;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    background-color: black;
+    size: 2px;
+}
+.bottom1{
+    display: flex;
+    margin-top: -70px;
+    justify-content: space-between;
+    margin: 25px;
+    background-color: black;
+    size: 2px;
+}
+.bottom1 p{
+    margin-right: 730px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+}
