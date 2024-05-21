@@ -58,7 +58,7 @@ function Camo() {
              name: 'Blueberry Camo Glass Case',
              price: 499,
              rating: 3,
-             image: 'https:coveritup.com/cdn/shop/products/Layer78_83be2d54-b639-4c40-aea6-169eb935b284.jpg?v=1681209812&width=800',
+             image: 'https://coveritup.com/cdn/shop/products/Layer12_b419c9e5-5379-493c-9f55-770962255a51.jpg?v=1681117064&width=800',
              hoverImage: 'https:coveritup.com/cdn/shop/products/Layer76_520d5247-0a4f-412f-93ec-c99522d19d50.jpg?v=1681209812&width=800'
            },
            {
